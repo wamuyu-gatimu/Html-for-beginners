@@ -3,10 +3,11 @@
 
 <head>
     <title>My Portfolio</title>
-
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
+    <!--Navbar-->
     <div class="Nav-bar">
         <!--<ol>
             <li>apples</li>
@@ -19,41 +20,164 @@
             <li>mangoes</li>
             <li>grapes</li>
             <li>bananas</li>
-        </ul>--> 
-        <img src="./logo.jpg" alt="logo" width="100px" height="100px">
-         <h1>Portfolio</h1>
+        </ul>-->
+        <div class="logo">
+            <img src="./logo.jpg" alt="logo">
+            <h1>Portfolio</h1>
+        </div>
+
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">services</a></li>
             <li><a href="#">About me</a></li>
-            <li><a href="#">help</a></li>
             <li><a href="#">feedback</a></li>
             <li><a href="#">contacts</a></li>
-            <li><a href="https://www.youtube.com/watch?v=Zi9To04PO78&list=TLPQMjgwNzIwMjMdAcNa5Fv8dg&index=25">Youtube</a></li>
+
         </ul>
     </div>
-    <hr>
-    <div>
-        <h1>Purity Wamuyu Gatimu</h1>
-        <p>Welcome to my portfolio</p>
-        <div>
-            <form action="">
-                <input type="text">
-                <br/>
-                <input type="file">
-                <br>
-                <input type="password"><br>
-                <input type="date"><br>
-                <input type="email"><br>
-                <input type="number"><br>
-                <input type="checkbox"><br>
-                <input type="radio"><br>
-                <input type="range"><br>
-                <input type="submit">
-                <button type="submit">submit</button>
-            </form>
+    <!--Home page-->
+    <div class="home">
+       
+        <div class="home-content">
+            <h1>Purity Wamuyu Gatimu</h1>
+            <p>Welcome to my portfolio</p>
+            <button class="btn">Find More &rarr;</button>
         </div>
+       
+       
+
     </div>
+    <!--Service-->
+    <div class="services">
+        <h1>Services</h1>
+        <div class="service-content">
+            <div class="card">
+                <h1>Data analytics</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse in consequat orci, at cursus ante. Morbi
+                    consequat dolor at maximus euismod. Vivamus in est semper,
+                    condimentum turpis vel, fermentum nulla. Curabitur quis nisi
+                    in ipsum ornare accumsan sit amet vel eros. Integer at dui ac
+                    nibh tempus consectetur. Integer eget pretium nisi. Duis
+                    euismod nulla quis mi cursus, dictum hendrerit diam lacinia.
+                    Phasellus sed ex ut ipsum bibendum placerat. Morbi non mattis
+                    lacus, vitae auctor ipsum. Donec vitae orci id ipsum aliquam
+                </p>
+            </div>
+            <div class="card">
+                <h1>Mathematical Modelling</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse in consequat orci, at cursus ante. Morbi
+                    consequat dolor at maximus euismod. Vivamus in est semper,
+                    condimentum turpis vel, fermentum nulla. Curabitur quis nisi
+                    in ipsum ornare accumsan sit amet vel eros. Integer at dui ac
+                    nibh tempus consectetur. Integer eget pretium nisi. Duis
+                    euismod nulla quis mi cursus, dictum hendrerit diam lacinia.
+                    Phasellus sed ex ut ipsum bibendum placerat. Morbi non mattis
+                    lacus, vitae auctor ipsum. Donec vitae orci id ipsum aliquam
+                </p>
+            </div>
+            <div class="card">
+                <h1>Web development</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse in consequat orci, at cursus ante. Morbi
+                    consequat dolor at maximus euismod. Vivamus in est semper,
+                    condimentum turpis vel, fermentum nulla. Curabitur quis nisi
+                    in ipsum ornare accumsan sit amet vel eros. Integer at dui ac
+                    nibh tempus consectetur. Integer eget pretium nisi. Duis
+                    euismod nulla quis mi cursus, dictum hendrerit diam lacinia.
+                    Phasellus sed ex ut ipsum bibendum placerat. Morbi non mattis
+                    lacus, vitae auctor ipsum. Donec vitae orci id ipsum aliquam
+                </p>
+            </div>
+        </div>
+       
+    </div>
+    <!--About me-->
+    <div class="About">
+        <div>
+            <h1>About me</h1>
+            <p>Morbi eu risus augue. Etiam quam dolor, ornare quis vestibulum
+                quis, dignissim in lacus. Vivamus ullamcorper, mi ac pulvinar consectetur,
+                urna dui iaculis lorem, vel fermentum lectus magna vitae sapien. Vivamus dignissim enim arcu,
+                vitae viverra quam consectetur ut. Nulla interdum pulvinar lectus, in varius
+                enim. Aliquam vestibulum tristique mauris, a volutpat sapien condimentum sed.
+                Aliquam mollis ut turpis et molestie. Curabitur ac libero sem. Nullam convallis,
+                magna vitae facilisis aliquam, tortor dui imperdiet metus, a commodo erat purus a nibh.
+                Etiam porta augue et maximus pulvinar. Maecenas sit amet facilisis eros, et elementum nisl.
+                Proin rutrum, diam in pretium aliquam, odio magna cursus mi, id aliquam dui magna ut enim.
+                Curabitur dapibus mi ipsum, a accumsan ipsum vehicula a. Vestibulum
+                ligula odio, accumsan sit amet ligula vitae, faucibus lobortis tellus.
+                Suspendisse potenti. Praesent tristique elit vel nisi bibendum, sed rhoncus lacus egestas.
+            </p>
+        </div>
+
+    </div>
+    <!--Feedback-->
+    <div class="feedback">
+        <form action="">
+            <input type="text" placeholder="first name">
+            <br />
+            <input type="file" placeholder="upload an image">
+            <br>
+            <input type="password" placeholder="password"><br>
+            <input type="date" placeholder="calender"><br>
+            <input type="email" placeholder="email"><br>
+            <input type="number" placeholder="number"><br>
+            <input type="checkbox"><br>
+            <input type="radio"><br>
+            <input type="range" placeholder="range"><br>
+            <input type="submit">
+            <button type="submit">submit</button>
+        </form>
+    </div>
+    <!--Contacts-->
+    <div class="contacts">
+        <h1>contacts</h1>
+        <div>
+            <label for="Tel No.">Tel No.</label>
+            <p>0715545413</p>
+            <label for="Email Address">Email Address:</label>
+            <p>wamuyugatimu6@gmail.com</p>
+            <h3>instagram: <p>purryy</p>
+            </h3>
+            <h3>facebook: <p>purityjosphat</p>
+            </h3>
+        </div>
+
+    </div>
+    <footer>
+        <h1>Footer</h1>
+        <div>
+            <div class="footer-contacts">
+                <h3>contacts</h3>
+                <label for="Tel No.">Tel No.</label>
+                <p>0715545413</p>
+                <label for="Email Address">Email Address:</label>
+                <p>wamuyugatimu6@gmail.com</p>
+                <label for="instagram">instagram:</label>
+                <p>purryy</p>
+                </h3>
+                <h3>facebook: <p>purityjosphat</p>
+                </h3>
+            </div>
+            <div class="links">
+                <h3>useful links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">feedback</a></li>
+                    <li><a href="#">contacts</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <h3>Copyright &copy 2023 || All rights reserved</h3>
+    </footer>
 
 </body>
 
